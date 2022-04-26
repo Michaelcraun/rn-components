@@ -4,6 +4,7 @@ import Avatar from "./function";
 import Button from "./button-func";
 import { TouchableOpacity } from "react-native";
 import StateObject from "./state";
+import LifeCycleObject from "./life-cycle";
 
 function printHello(person) {
   console.log(
@@ -48,6 +49,8 @@ export default function App() {
       </TouchableOpacity>
 
       <StateObject />
+
+      <LifeCycleObject />
     </View>
   );
 }
