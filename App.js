@@ -3,6 +3,7 @@ import { StyleSheet, Text, View } from "react-native";
 import Avatar from "./function";
 import Button from "./button-func";
 import { TouchableOpacity } from "react-native";
+import StateObject from "./state";
 
 function printHello(person) {
   console.log(
@@ -45,6 +46,8 @@ export default function App() {
       >
         <Text>Click Me!</Text>
       </TouchableOpacity>
+
+      <StateObject />
     </View>
   );
 }
