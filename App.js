@@ -5,6 +5,7 @@ import Button from "./button-func";
 import { TouchableOpacity } from "react-native";
 import StateObject from "./state";
 import LifeCycleObject from "./life-cycle";
+import EventsObject from "./events";
 
 function printHello(person) {
   console.log(
@@ -51,6 +52,8 @@ export default function App() {
       <StateObject />
 
       <LifeCycleObject />
+
+      <EventsObject />
     </View>
   );
 }
