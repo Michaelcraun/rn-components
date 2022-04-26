@@ -16,7 +16,7 @@ export default function App() {
       <Text>The deal is { discount === '20%' && price < 50 ? "hot!" : "nah..." }</Text>
 
       
-      <Button title='Click Me!'/>
+      <Button title='Click Me!' style={{ marginBottom: 20 }} outlined={true}/>
       <Button title='Dont Click Me!'/>
       <Button title='Title Button!' />
     </View>
