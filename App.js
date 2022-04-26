@@ -6,6 +6,7 @@ import { TouchableOpacity } from "react-native";
 import StateObject from "./state";
 import LifeCycleObject from "./life-cycle";
 import EventsObject from "./events";
+import ConditionalRendering from "./conditional-rendering";
 
 function printHello(person) {
   console.log(
@@ -54,6 +55,8 @@ export default function App() {
       <LifeCycleObject />
 
       <EventsObject />
+
+      <ConditionalRendering />
     </View>
   );
 }
